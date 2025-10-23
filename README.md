@@ -13,8 +13,8 @@ and i was bored
 ## to test it
 make sure you have cargo and rustup and the nix crate
 all you have to do is clone the repo:
-`git clone https://github.com/v1nch3ns0/verish` (make sure you have git)
-and just run `cargo run`!
+`git clone https://github.com/v1nch3ns0/verish`
+and just run (`cargo run`)
 ## todo
 - redirection (<, >, >>)
 - piping
