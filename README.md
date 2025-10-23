@@ -17,6 +17,10 @@ all you have to do is clone the repo:
 `git clone https://github.com/v1nch3ns0/verish`
 
 and just run (`cargo run`)
+## note
+some of the code is took off reddit but i mean havent we all 
+looked on stack overflow begging for answers atleast once
+eh idk
 ## todo
 - redirection (<, >, >>)
 - piping
