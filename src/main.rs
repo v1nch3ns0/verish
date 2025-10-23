@@ -12,7 +12,7 @@ fn main() {
     let home_dir = env::var("HOME").map(PathBuf::from).unwrap_or_else(|_| PathBuf::from("/")); // found on reddit
     let mut current_dir = env::current_dir().expect("No dir found");
 
-    // shared foreground process for ctrl + c
+    // so ctrl c doesnt exit shell 
     let fg_child: Arc<Mutex<Option<u32>>> = Arc::new(Mutex::new(None));
     {
         let fg_clone = fg_child.clone();
